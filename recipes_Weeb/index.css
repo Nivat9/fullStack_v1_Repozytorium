@@ -2,3 +2,8 @@ html{
 	min-height: 100vh;
 	background: linear-gradient(180deg, rgba(255,212,53,1), rgba(209,84,0,1));
 }
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Dancing Script', cursive;
+}
