@@ -6,13 +6,40 @@ html{
 h1{
 	/*font-family: 'Montserrat', sans-serif;*/
 	font-family: 'Dancing Script', cursive;
-	font-size: 4vw;
+	font-size: 3vw;
 
-	text-align: center;
+	position: relative;
 	animation: intro 3s forwards;
 	opacity: 0
+
+	
 }
 
+.sign{
+	background-image: url("./recipes/img_recipes/wooden-sign-board-for-sale-png.png");
+/*	width: 400px; 
+	height: 330px;*/
+	width: 19vw; 
+	height: 19vw;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: table-cell;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.zasobnik{
+	position: relative;
+	width: auto;
+	height: auto;
+	
+	vertical-align: middle;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
 @keyframes intro {
     100% {bottom: 0};
