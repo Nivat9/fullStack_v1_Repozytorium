@@ -39,7 +39,7 @@ h1{
     justify-content: center;
 }
 
-.zasobnik{
+.naglowek{
 	position: relative;
 	width: auto;
 	height: auto;
@@ -48,6 +48,26 @@ h1{
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.zasobnik{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.kafel {
+	width: 48%;
+	height: 150px;
+
+	background-color: #f2f2f2;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 /* Animacja pojawiania się tekstu */
