@@ -1,6 +1,7 @@
 html{
 	min-height: 100vh;
-	background: linear-gradient(180deg, rgba(255,212,53,1), rgba(209,84,0,1));
+/*	background: linear-gradient(180deg, rgba(255,212,53,1), rgba(209,84,0,1));*/
+	background: linear-gradient(180deg, rgba(241,217,193,1) 0%, rgba(175,131,88,1) 100%);
 }
 
 h1{
@@ -8,11 +9,19 @@ h1{
 	font-family: 'Dancing Script', cursive;
 	font-size: 3vw;
 
+	color: #ffcfa0;
+
+	/* Usstanowienie gradientu na tekście */
+    background: -webkit-linear-gradient(-90deg, rgba(255,207,160,1) 30%, rgba(109,67,26,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 	position: relative;
+	/* Zagnieżdżenie animacji pojawiania się tekstu */
 	animation: intro 3s forwards;
 	opacity: 0
 
-	
 }
 
 .sign{
@@ -41,6 +50,7 @@ h1{
     justify-content: center;
 }
 
+/* Animacja pojawiania się tekstu */
 @keyframes intro {
     100% {bottom: 0};
     from {opacity: 0} to {opacity: 1};
